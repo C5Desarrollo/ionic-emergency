@@ -1,0 +1,39 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Emergency</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-button >Ir</ion-button>
+
+
+    <ion-tabs>
+        <ion-tab-bar slot="bottom">
+
+    <!--         <ion-tab-button tab="video">
+                <ion-icon name="videocam"></ion-icon>
+                <ion-label>Videollamada</ion-label>
+            </ion-tab-button> -->
+
+
+            <ion-tab-button tab="call">
+                <ion-icon name="call"></ion-icon>
+                <ion-label>Llamada</ion-label>
+            </ion-tab-button>
+
+            <ion-tab-button (click)="irASala()">
+                <ion-icon name="videocam"></ion-icon>
+                <ion-label>Videollamada</ion-label>
+            </ion-tab-button>
+
+            <ion-tab-button (click)="irAAdmin()">
+                <ion-icon name="person"></ion-icon>
+                <ion-label>Admin2</ion-label>
+            </ion-tab-button>
+
+        </ion-tab-bar>
+    </ion-tabs>
+
+</ion-content>

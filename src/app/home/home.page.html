@@ -1,0 +1,24 @@
+<ion-content class="auth-form">
+    <ion-grid>
+        <ion-row>
+            <ion-card class="card-content">
+                <img src="./assets/images/img_pol.png" />
+                <ion-card-header>
+                    <ion-card-subtitle class="login_label">Call- Emergency</ion-card-subtitle>
+                    <ion-card-title class="login_label">Zapopan</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-col align-self-center>
+                        <ion-button [routerLink]="['/registration']" expand="block" color="primary">Registrar</ion-button>
+                        <span class="divider line one-line">o</span>
+                        <span class="login_label">Ya estas registrado?</span>
+                        <ion-button [routerLink]="['/login']" expand="block" color="danger">Iniciar</ion-button>
+                    </ion-col>
+                </ion-card-content>
+            </ion-card>
+
+
+
+        </ion-row>
+    </ion-grid>
+</ion-content>
